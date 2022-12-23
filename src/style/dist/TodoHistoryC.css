@@ -1,0 +1,20 @@
+.TodoHistoryC {
+  padding: 10px;
+  display: flex;
+  line-height: 29px;
+  background-color: #f2d964;
+  color: #00ccf4;
+  font-family: "Peace";
+  justify-content: space-between;
+  font-size: 17px;
+  padding: 9px 10px;
+}
+.TodoHistoryC:nth-child(even) {
+  background-color: #00ccf4;
+  color: #f2d964;
+}
+
+.todo {
+  display: flex;
+  line-height: 29px;
+}

@@ -1,0 +1,33 @@
+.TodoHistory {
+  height: 260px;
+  overflow-y: auto;
+}
+
+.jiwar {
+  color: white;
+  font-size: 1.3rem;
+  cursor: pointer;
+  padding: 3px 0 0 0;
+}
+.jiwar:hover {
+  color: red;
+}
+
+.momo {
+  color: gray;
+  font-family: "Peace";
+  font-size: 17px;
+  margin: 5px 13px;
+  display: flex;
+  align-items: center;
+}
+.momo input {
+  background: none;
+  outline: none;
+  border: none;
+  padding: 10px 30px 10px 10px;
+  font-size: 15px;
+  line-height: 25px;
+  color: pink;
+  font-family: "Peace";
+}

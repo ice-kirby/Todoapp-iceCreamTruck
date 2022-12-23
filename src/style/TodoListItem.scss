@@ -1,0 +1,52 @@
+.TodoListItem {
+  padding: 10px;
+  display: flex;
+  line-height: 29px;
+  background-color: #75391d;
+  color: #acdad7;
+  font-family: "Peace";
+  justify-content: space-between;
+  font-size: 17px;
+  padding: 9px 10px;
+
+  &:nth-child(odd) {
+    background-color: #acdad7;
+    color: #75391d;
+  }
+}
+
+.todo {
+  display: flex;
+  line-height: 29px;
+
+  .date {
+    margin: 0px 5px;
+    font-size: 15px;
+  }
+
+  .text {
+    margin: 0px 5px;
+  }
+
+  .checkbox {
+    width: 1.3rem;
+    height: 1.3rem;
+
+    &:checked + .text,
+    &:checked + .date {
+      color: red;
+      text-decoration: line-through;
+    }
+  }
+}
+
+.remove {
+  color: white;
+  font-size: 1.3rem;
+  cursor: pointer;
+  padding: 3px 0 0 0;
+
+  &:hover {
+    color: red;
+  }
+}

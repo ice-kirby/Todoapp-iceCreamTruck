@@ -1,0 +1,45 @@
+.TodoListItem {
+  padding: 10px;
+  display: flex;
+  line-height: 29px;
+  background-color: #75391d;
+  color: #acdad7;
+  font-family: "Peace";
+  justify-content: space-between;
+  font-size: 17px;
+  padding: 9px 10px;
+}
+.TodoListItem:nth-child(odd) {
+  background-color: #acdad7;
+  color: #75391d;
+}
+
+.todo {
+  display: flex;
+  line-height: 29px;
+}
+.todo .date {
+  margin: 0px 5px;
+  font-size: 15px;
+}
+.todo .text {
+  margin: 0px 5px;
+}
+.todo .checkbox {
+  width: 1.3rem;
+  height: 1.3rem;
+}
+.todo .checkbox:checked + .text, .todo .checkbox:checked + .date {
+  color: red;
+  text-decoration: line-through;
+}
+
+.remove {
+  color: white;
+  font-size: 1.3rem;
+  cursor: pointer;
+  padding: 3px 0 0 0;
+}
+.remove:hover {
+  color: red;
+}

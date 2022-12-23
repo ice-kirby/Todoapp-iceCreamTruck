@@ -1,0 +1,18 @@
+.TodoBody {
+  width: 500px;
+  margin: 0 auto;
+  margin-top: 30px;
+  overflow: hidden;
+
+  .appTitle {
+    font-family: "Peace";
+    background-image: url(../../public/medias/truck.png);
+    background-size: cover;
+    color: black;
+    height: 50px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
